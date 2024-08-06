@@ -45,6 +45,7 @@ async function upload_file(){
                 "num": to_post
             })
         })
+        window.location.replace("/")
     }
     reader.readAsDataURL(file)
 }
